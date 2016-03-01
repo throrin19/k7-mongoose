@@ -144,6 +144,37 @@ describe('K7Mongoose', () => {
     });
   });
 
+  describe('when a plugin is registrated and query the model', () => {
+    let server = new Hapi.Server();
+    let error;
+    
+    before((done) => {
+      const register = {
+        register: require('k7'),
+        options: options
+      };
+
+      server.register([register], (err) => {
+        error = err;
+        done();
+      });
+    });
+
+    it('should have an empty array quering user', (done) => {
+      server.database.User.find({}, function (err, rows) {
+        if (err) {
+          throw err;
+        }
+
+        expect(rows).to.be.an.array();
+        expect(rows).to.be.empty();
+
+        done();
+      });
+    });
+    
+  });
+
   // describe('when a plugin is registrated with a event on connected', () => {
   //   let server = new Hapi.Server();
   //   let error;
