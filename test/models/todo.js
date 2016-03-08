@@ -19,4 +19,3 @@ const TodoModel = mongoose.model('Todo', Schema);
 
 module.exports = TodoModel;
 
-

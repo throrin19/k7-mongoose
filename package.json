@@ -4,7 +4,8 @@
   "description": "K7 Adapter for using mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "lab"
+    "test": "semistandard && lab",
+    "test-cov-html": "lab -r html -o coverage.html"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,9 @@
     "k7",
     "hapijs",
     "mongoose",
+    "mongodb",
+    "mongo",
+    "hapi",
     "odm"
   ],
   "author": "Marcos Bergamo <marcos@thedon.com.br>",
@@ -23,15 +27,15 @@
   },
   "homepage": "https://github.com/thebergamo/k7-mongoose#readme",
   "dependencies": {
-    "glob": "^7.0.0",
-    "hoek": "^3.0.4",
-    "mongoose": "^4.4.5",
-    "k7": "git+https://github.com/thebergamo/k7.git"
+    "glob": "7.0.x",
+    "hoek": "3.0.x",
+    "mongoose": "4.4.x",
+    "k7": "1.x.x"
   },
   "devDependencies": {
-    "code": "^2.1.0",
-    "hapi": "^13.0.0",
-    "lab": "^10.1.0",
-    "sinon": "^1.17.3"
+    "code": "2.x.x",
+    "hapi": "10.x.x",
+    "lab": "10.x.x",
+    "semistandard": "^7.0.5"
   }
 }
