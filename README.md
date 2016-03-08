@@ -3,7 +3,9 @@ k7-mongoose
 k7 adapter for mongoose ODM
 
 [![Build Status](https://travis-ci.org/thebergamo/k7-mongoose.svg)](https://travis-ci.org/thebergamo/k7-mongoose)
-[![Coverage Status](https://coveralls.io/repos/thebergamo/k7-mongoose/badge.svg?branch=master&service=github)](https://coveralls.io/github/thebergamo/k7-mongoose?branch=master)
+[![Dependencies Status](https://david-dm.org/thebergamo/k7-mongoose.svg)](https://david-dm.org/thebergamo/k7-mongoose)
+[![DevDependencies Status](https://david-dm.org/thebergamo/k7-mongoose/dev-status.svg)](https://david-dm.org/thebergamo/k7-mongoose#info=devDependencies)
+[![Known Vulnerabilities](https://snyk.io/test/npm/k7-mongoose/badge.svg)](https://snyk.io/test/npm/k7-mongoose)
 [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
 
 K7-Mongoose is an Adapter for using Mongoose (MongoDB ODM) in Hapi by K7 connector
