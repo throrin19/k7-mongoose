@@ -63,3 +63,4 @@ You can see **k7** and **k7-mongoose** in action in the repo: [Start-Hapiness][s
 For testing you just need clone this repo and run `npm install && npm test` inside root folder of this project.; 
 
 [start-hapiness]: https://github.com/thebergamo/start-hapiness/blob/dev-2.0
+[mongoose]: http://mongoosejs.com/
