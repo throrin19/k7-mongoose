@@ -1,21 +1,21 @@
 'use strict';
 
-const mongoose = require('mongoose');
+const Mongoose = require('mongoose');
 
-const Schema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  owner: {
-    type: mongoose.Schema.Types.ObjectId,
-    required: true,
-    ref: 'User'
-  },
-  checked: Boolean
+const Schema = new Mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    owner: {
+        type: Mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'User'
+    },
+    checked: Boolean
 });
 
-const TodoModel = mongoose.model('Todo', Schema);
+const TodoModel = Mongoose.model('Todo', Schema);
 
 module.exports = TodoModel;
 

@@ -28,7 +28,7 @@
     "k7": "git@github.com:thebergamo/k7.git#v1.5"
   },
   "scripts": {
-    "test": "lab -m 5000 -t 100 -v -La code",
+    "test": "lab -m 5000 -t 90 -v -La code",
     "test-cov-html": "lab -m 5000 -r html -o coverage.html -La code"
   },
   "author": "Marcos Bergamo <marcos@thedon.com.br>",
