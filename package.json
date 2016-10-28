@@ -17,6 +17,7 @@
     "node": ">=4.x.x"
   },
   "dependencies": {
+    "async": "2.1.x",
     "glob": "7.0.x",
     "hoek": "3.0.x",
     "mongoose": "4.4.x"
