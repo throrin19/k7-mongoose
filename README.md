@@ -46,7 +46,7 @@ This example does the following:
 All the options available in [Mongoose][mongoose] can be setted in `connectionOptions`.
 
 ## Set up the models
-You can define your models schema like you're already do, but you need to replace the `const mongoose = require('mongoose');` on top of your models by update with `const mongoose = require('k7').mongoose;`
+You can define your models schema like you're already do, but you need to replace the `const mongoose = require('mongoose');` on top of your models by update with `const mongoose = require('k7-mongoose').mongoose();`
 
 **Why this is required?** Because mongoose is a singleton, therefore you need to use the **k7-mongoose** instantiated version.
 
