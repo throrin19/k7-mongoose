@@ -20,7 +20,7 @@
     "async": "2.1.x",
     "glob": "7.0.x",
     "hoek": "3.0.x",
-    "mongoose": "4.4.x",
+    "mongoose": "4.8.x",
     "verror": "1.9.0"
   },
   "devDependencies": {
